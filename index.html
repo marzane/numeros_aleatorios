@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funciones.js"></script>
+    <title>index</title>
+</head>
+<body>
+    <h1>Números aleatorios</h1>
+    <div>
+        <form>
+            <label for="cantidad">Cantidad: </label>
+            <input type="num" name="cantidad" id="cantidad" placeholder="cantidad" min="1" value="5">
+            <label for="minimo">Mínimo: </label>
+            <input type="num" name="minimo" id="minimo" placeholder="minimo" min="0" value="1">
+            <label for="maximo">Máximo: </label>
+            <input type="num" name="maximo" id="maximo" placeholder="maximo" min="0" value="10">
+            <input type="button" name="generar" id="generar" value="generar">
+            <input type="reset" name="limpiar" id="limpiar" value="limpiar">
+        </form>
+
+        <p id="normal">Normal: </p>
+        <p id="sinRepetidos1">Sin repetidos v1: </p>
+        <p id="sinRepetidos2">Sin repetidos v2: </p>
+    </div>
+
+</body>
+</html>
